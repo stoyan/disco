@@ -5,6 +5,6 @@ A bookmarklet to slap a disco-looking text on top of any page
 * `boom.js` the source
 * `tsk.js` minified
 
-## why
+## Why
 
-For sightread.org demo videos
+For [sightread.org](https://sightread.org) demo videos
