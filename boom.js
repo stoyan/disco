@@ -23,6 +23,7 @@
         #disco-text {
             font-family: 'Monoton', cursive; display: inline-block;
             white-space: nowrap; text-transform: uppercase;
+            text-align: center;
             background: linear-gradient(90deg, #ff00aa, #0055ff, #00aa44, #ffaa00, #ff0000, #ff00aa);
             background-size: 200% auto; -webkit-background-clip: text;
             -webkit-text-fill-color: transparent; animation: disco-flow 3s linear infinite;
@@ -37,7 +38,7 @@
     overlay.id = 'disco-overlay';
     const textSpan = document.createElement('span');
     textSpan.id = 'disco-text';
-    textSpan.innerText = textInput;
+    textSpan.innerHTML = textInput;
     overlay.appendChild(textSpan);
     document.body.appendChild(overlay);
 
