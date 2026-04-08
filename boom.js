@@ -1,6 +1,7 @@
 (function() {
     const textInput = prompt("What do you want to slap?", "DISCO FEVER");
     if (!textInput) return;
+    textInput = textInput.replace(/ /g, ' &nbsp; ');
 
     // 1. Inject Google Font & Styles
     const fontLink = document.createElement('link');
