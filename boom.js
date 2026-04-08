@@ -19,6 +19,8 @@
             position: fixed; top: 0; left: 0; width: 100vw; height: 100vh;
             z-index: 9999999; pointer-events: none; display: flex;
             align-items: center; justify-content: center; background: transparent;
+            text-align: center;
+
         }
         #disco-text {
             font-family: 'Monoton', cursive; display: inline-block;
