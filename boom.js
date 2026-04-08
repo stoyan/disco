@@ -1,5 +1,5 @@
 (function() {
-    const textInput = prompt("What do you want to slap?", "DISCO FEVER");
+    let textInput = prompt("What do you want to slap?", "DISCO FEVER");
     if (!textInput) return;
     textInput = textInput.replace(/ /g, ' &nbsp; ');
 
